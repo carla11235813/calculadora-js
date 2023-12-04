@@ -1,0 +1,69 @@
+body {
+    overflow: hidden;
+    background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=1429&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4d4d4d;
+}
+
+.main {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    backdrop-filter: blu(15px);
+    border-top: 1px solid rgba(255, 255, 255, 0.02);    
+    border-left: 1px solid rgba(255, 255, 255, 0.02);    
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.main form .text{
+    width: 200px;
+    height: 26px;
+    letter-spacing: 5px;
+    text-align: center;
+    height: 80px;
+}
+
+.text2 {
+    width: 20px;
+    height: 80px;
+}
+
+
+.num {
+    width: 70px;
+    height: 80px;
+    text-align: center;
+    transition: 0.5s;
+    font-size: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.num:hover {
+    transition: 0s;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.num:active {
+    background-color: #e48735;
+    color: #192f00;
+    font-weight: 500;
+}
+
+
+input {
+    color: #fff;
+    text-align: center;
+    border: none;
+    background: transparent;
+    padding: 14px;
+    outline: none;
+    font-size: 30px;
+} 
+
